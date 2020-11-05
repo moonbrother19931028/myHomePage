@@ -1,0 +1,102 @@
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background:hsl(0, 0%, 100%);
+}
+
+header{
+  width:500px;
+  margin:0 auto;
+}
+
+header h1{
+  text-align:center;
+}
+
+header nav{
+  font-weight:bold;
+  font-size:20px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-around;
+}
+
+header nav li{
+  list-style:none;
+}
+
+.headerImg{
+  margin:60px auto;
+  width:500px;
+}
+
+.main{
+  /* margin-left:20px; */
+  padding:0;
+  width:800px;
+  margin:auto;
+}
+
+.main h2{
+  font-size:30px;
+  border-bottom:1px solid #535353;
+  border-left:2px solid #535353;
+  padding-left:10px;
+}
+
+.main .subtitle{
+  font-size:30px;
+}
+
+.myskillholder{
+  display:flex;
+  justify-content: space-around;
+}
+
+.skill .icon{
+  display:flex;
+  flex-direction:column;
+  font-size:90px;
+}
+
+.make img{
+  width:200px;
+}
+
+.makingOre{
+  font-size:30px;
+}
+
+.makingOre>.language{
+  color:#888888;
+  font-size:20px;
+}
+
+.profileImg{
+  width:300px;
+  float:right;
+  border-radius:50%;
+}
+
+.contact{
+  height:300px;
+  margin-top:100px;
+}
+
+.contactList{
+  display:flex;
+  justify-content: space-around;
+  width:500px;
+  margin:auto;
+}
+
+
+.twitterIcon{
+  display:block;
+  width:100px;
+}
+
+
+.githubIcon{
+  display:block;
+  width:100px;
+}
