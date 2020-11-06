@@ -1,10 +1,10 @@
 body{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background:#fadfb7;
+  background:#f4eade;
+  color:#000;
 }
 
 header{
-  width:500px;
   margin:0 auto;
 }
 
@@ -17,27 +17,49 @@ header nav{
   font-size:20px;
   margin:0 auto;
   display:flex;
-  justify-content:space-around;
+  justify-content:center;
 }
 
 header nav li{
   list-style:none;
+  font-size:30px;
+  background:#5abcda;
+  width:190px;
+  text-align:center;
+  border:1px solid #fff;
+}
+
+header nav li:hover{
+  background:#73deff;
+}
+
+header nav li a{
+  color:#2e2e2e;
+  text-decoration:none;
+  font-weight:normal;
+}
+
+header nav li a:hover{
+  color:#555555;
 }
 
 .headerImg{
+  display:block;
   margin:60px auto;
-  width:500px;
+  width:800px;
 }
 
 .main{
   /* margin-left:20px; */
   padding:0;
-  width:800px;
+  width:1000px;
   margin:auto;
 }
 
 .main h2{
+  width:1000px;
   font-size:30px;
+  margin:0 auto;
   border-bottom:1px solid #535353;
   border-left:2px solid #535353;
   padding-left:10px;
@@ -45,6 +67,10 @@ header nav li{
 
 .main .subtitle{
   font-size:30px;
+}
+
+.skill{
+  margin:100px 0;
 }
 
 .myskillholder{
@@ -55,20 +81,25 @@ header nav li{
 .skill .icon{
   display:flex;
   flex-direction:column;
-  font-size:90px;
+  font-size:150px;
 }
 
-.make img{
-  width:200px;
+.makingImg{
+  width:300px;
+}
+
+.myMaking{
+  display:flex;
+  justify-content: space-around;
 }
 
 .makingOre{
-  font-size:30px;
+  font-size:20px;
 }
 
 .makingOre>.language{
   color:#888888;
-  font-size:20px;
+  font-size:10px;
 }
 
 .profileImg{

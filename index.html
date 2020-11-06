@@ -11,14 +11,15 @@
       <h1>YUKI LOBO</h1>
       <nav>
         <li><a href="#">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">make</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#skill">skill</a></li>
+        <li><a href="#make">make</a></li>
+        <li><a href="#contact">contact</a></li>
       </nav>
       <img src="img/7uhcRwfh" class="headerImg">
     </header>
     <div class="main">
-      <div claas="about">
+      <div claas="about" id="about">
         <h2>About</h2>
         <p class="subtitle">自己紹介</p>
         <div class="profileFile">
@@ -27,7 +28,7 @@
             <li>名前：Tsubota Yuki</li>
             <li>誕生日：1997／07／15</li>
             <li>出身地：埼玉県</li>
-            <li>趣味：読書　ゲーム 映画　音楽鑑賞</li>
+            <li>趣味：読書　ゲーム　映画　音楽鑑賞</li>
           </ul>
         </div>
         <p class="subtitle">経歴</p>
@@ -40,7 +41,7 @@
           <li>ポートフォリオ作成中</li>
         </ul>
       </div>
-      <div class="skill">
+      <div class="skill" id="skill">
         <h2>Skill</h2>
         <div class="myskillholder">
           <p>
@@ -60,21 +61,30 @@
           </p>
         </div>
       </div>
-      <div class="make">
+      <div id="make">
         <h2>Make</h2>
-        <p class="makingOre">タイピングゲーム<span class="language">(HTML/CSS/JavaScript)</span></p>
-        <p><a href=" https://moonbrother19931028.github.io/typingGame/">URL</a></p>
-        <img src="img/typeGameStart.png">
-        <img src="img/typeGameAfter.png">
-        <p class="makingOre">体内時計ゲーム<span class="language">(HTML/CSS/JavaScript)</span></p>
-        <p><a href="https://moonbrother19931028.github.io/timeDoubtGame/">URL</a></p>
-        <img src="img/timeDoubt.png">
-        <p class="makingOre">日記帳<span class="language">(HTML/CSS/Vue.js)</span></p>
-        <p><a href="https://moonbrother19931028.github.io/Nikki/">URL</a></p>
-        <img src="img/Nikki.png">
+        <div class="myMaking">
+          <div class="typingGame">
+            <p class="makingOre">タイピングゲーム<br><span class="language">(HTML/CSS/JavaScript)</span></p>
+            <p><a href=" https://moonbrother19931028.github.io/typingGame/"><img src="img/typeGameStart.png" class="makingImg"></a></p>
+            <a href="https://github.com/moonbrother19931028/timeDoubtGame">ソースコード</a>
+            
+          </div>
+          <div class="clockQuiz">
+            <p class="makingOre">体内時計ゲーム<br><span class="language">(HTML/CSS/JavaScript)</span></p>
+            <p></p><a href="https://moonbrother19931028.github.io/timeDoubtGame/"><img src="img/timeDoubt.png" class="makingImg"></a></p>
+            <a href="https://github.com/moonbrother19931028/stopwatchDotinstall">ソースコード</a>
+          </div>
+          <div class="dairySet">
+            <p class="makingOre">日記帳<br><span class="language">(HTML/CSS/Vue.js)</span></p>
+            <p><a href="https://moonbrother19931028.github.io/Nikki/"><img src="img/Nikki.png" class="makingImg"></a></p>
+            <a href="https://github.com/moonbrother19931028/Nikki">ソースコード</a>
+            
+          </div>
+        </div>
       </div>
 
-      <div class="contact">
+      <div class="contact" id="contact">
         <h2>Contact</h2>
         <div class="contactList">
           <div class="twitter">
