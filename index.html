@@ -2,28 +2,48 @@
 <html lang="ja"> 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Yuki Exhibiton</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   </head>
   <body>
     <header>
-      <h1>YUKI LOBO</h1>
-      <nav>
-        <li><a href="#">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#skill">skill</a></li>
-        <li><a href="#make">make</a></li>
-        <li><a href="#contact">contact</a></li>
-      </nav>
+      <h1>
+        YUKI LOBO
+        <div class="sp-menu">
+          <span class="material-icons menuBtn" id="clickMenu">menu</span>
+        </div>
+      </h1>
+      <div class="pc-menu">
+        <nav>
+          <li><a href="#">homes</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#skill">skill</a></li>
+          <li><a href="#make">make</a></li>
+          <li><a href="#contact">contact</a></li>
+        </nav>
+      </div>
+      <div class="menuBar displayNone" id="spMenu">
+        <nav>
+          <li><a href="#">home<span>▼</span></a></li>
+          <li><a href="#about">about<span>▼</span></a></li>
+          <li><a href="#skill">skill<span>▼</span></a></li>
+          <li><a href="#make">make<span>▼</span></a></li>
+          <li><a href="#contact">contact<span>▼</span></a></li>
+        </nav>
+      </div>
       <img src="img/7uhcRwfh" class="headerImg">
     </header>
     <div class="main">
       <div claas="about" id="about">
         <h2>About</h2>
         <p class="subtitle">自己紹介</p>
+        <img src="img/images1.jpg" alt="profileImage" class="profileImg">
         <div class="profileFile">
-          <img src="img/images1.jpg" alt="profileImage" class="profileImg">
           <ul class=item>
             <li>名前：Tsubota Yuki</li>
             <li>誕生日：1997／07／15</li>
@@ -61,7 +81,7 @@
           </p>
         </div>
       </div>
-      <div id="make">
+      <div id="make" class="make">
         <h2>Make</h2>
         <div class="myMaking">
           <div class="typingGame">
@@ -91,7 +111,7 @@
             <a href="https://twitter.com/Redspiderman01"><img src="img/twitter.png" alt="twitter" class="twitterIcon"></a>
           </div>
           <div class="github">
-            <a href=""><img src="img/github.png" alt="github" class="githubIcon"></a>
+            <a href="https://github.com/moonbrother19931028"><img src="img/github.png" alt="github" class="githubIcon"></a>
           </div>
         </div>
       </div>

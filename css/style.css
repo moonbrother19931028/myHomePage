@@ -12,7 +12,7 @@ header h1{
   text-align:center;
 }
 
-header nav{
+header .pc-menu nav{
   font-weight:bold;
   font-size:20px;
   margin:0 auto;
@@ -20,7 +20,7 @@ header nav{
   justify-content:center;
 }
 
-header nav li{
+header .pc-menu nav li{
   list-style:none;
   font-size:30px;
   background:#5abcda;
@@ -29,7 +29,7 @@ header nav li{
   border:1px solid #fff;
 }
 
-header nav li:hover{
+header .pc-menu nav li:hover{
   background:#73deff;
 }
 
@@ -52,17 +52,23 @@ header nav li a:hover{
 .main{
   /* margin-left:20px; */
   padding:0;
-  width:1000px;
+  width:80%;
   margin:auto;
 }
 
 .main h2{
-  width:1000px;
+  width:100%;
   font-size:30px;
   margin:0 auto;
   border-bottom:1px solid #535353;
   border-left:2px solid #535353;
   padding-left:10px;
+}
+
+.profileImg{
+  width:300px;
+  float:right;
+  border-radius:50%;
 }
 
 .main .subtitle{
@@ -79,9 +85,11 @@ header nav li a:hover{
 }
 
 .skill .icon{
-  display:flex;
-  flex-direction:column;
   font-size:150px;
+}
+
+.make{
+  margin:100px 0;
 }
 
 .makingImg{
@@ -102,22 +110,12 @@ header nav li a:hover{
   font-size:10px;
 }
 
-.profileImg{
-  width:300px;
-  float:right;
-  border-radius:50%;
-}
-
-.contact{
-  height:300px;
-  margin-top:100px;
-}
 
 .contactList{
   display:flex;
   justify-content: space-around;
-  width:500px;
-  margin:auto;
+  width:100%;
+  margin:100px auto;
 }
 
 
@@ -130,4 +128,8 @@ header nav li a:hover{
 .githubIcon{
   display:block;
   width:100px;
+}
+
+.displayNone{
+  display:none;
 }

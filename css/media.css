@@ -1,0 +1,83 @@
+@media(max-width: 800px){
+  body{
+    width:auto;
+  }
+  header{
+    margin:0 auto;
+  }
+
+  header h1{
+    font-size:40px;
+  }
+
+  
+  header .menuBar li{
+    list-style:none;
+    text-align:center;
+    border-bottom:solid 1px #000;
+    margin:0 auto;
+    background:#5abcda;
+  }
+  
+  header .displayNone li a{
+    font-size:20px;
+  }
+  
+  header .displayNone li a span{
+    font-size:10px;
+    margin-left:5px;
+  }
+  
+  header .displayNone{
+    display:none;
+  }
+  
+  header .headerImg{
+    width:80vw;
+  }
+  
+  .main{
+    width:100%;
+  }
+  
+  .profileImg{
+    width:30%;
+    float:none!important;
+    margin-bottom:30px;
+  }
+  
+  .myskillholder{
+    flex-direction:column;
+  }
+  
+  .myskillholder p{
+    margin: 20px auto;
+  }
+  
+  .myMaking{
+    flex-direction:column;
+  }
+  
+  .contact{
+    margin-top:0;
+  }
+
+  .pc-menu{
+    display:none;
+  }
+  
+  .sp-menu{
+    float:right;
+    margin-right:10px;
+  }
+
+  .menuBtn{
+    font-size:30px!important;
+  }
+}
+
+@media(min-width:801px){
+  .sp-menu{
+    display:none;
+  }
+}
